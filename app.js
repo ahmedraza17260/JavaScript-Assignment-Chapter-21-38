@@ -592,23 +592,46 @@
 // document.write(titleCase("the quick brown fox" + "<br>"));
 
 // Question 12
-function longestWord(string) {
-  var str = string.split(" ");
-  var longest = 0;
-  var word = null;
-  for (var i = 0; i <= str.length - 1; i++) {
-    if (longest < str[i].length) {
-      longest = str[i].length;
-      word = str[i];
-    }
-  }
-  return word;
-}
-var variable = "'Web Development Tutoria";
-document.write(longestWord(variable));
+// function longestWord(string) {
+//   var str = string.split(" ");
+//   var longest = 0;
+//   var word = null;
+//   for (var i = 0; i <= str.length - 1; i++) {
+//     if (longest < str[i].length) {
+//       longest = str[i].length;
+//       word = str[i];
+//     }
+//   }
+//   return word;
+// }
+// var variable = "'Web Development Tutorial";
+// document.write(longestWord(variable));
 
 // Question 13
-
-// function upper(str) {
-//     return str.replace(/(^| )./g, x => x.toUpperCase())
+// function char_count(str, letter) {
+//   var letter_Count = 0;
+//   for (var position = 0; position < str.length; position++) {
+//     if (str.charAt(position) == letter) {
+//       letter_Count += 1;
+//     }
+//   }
+//   return letter_Count;
 // }
+// let variable = "JSResourceS.com".toLowerCase();
+// document.write(char_count(variable, "o"));
+// document.write("<br>");
+
+// Question 14
+// function calcCircumference(radius) {
+//   var circum = 2 * Math.PI * radius;
+//   document.write("The circumference is  " + circum + "<br>");
+//   return circum;
+// }
+// function calcArea(radius) {
+//   var area = Math.PI * radius * radius;
+//   document.write("The Area is  " + area + "<br>");
+//   return area;
+// }
+// calcCircumference(4);
+// calcArea(4);
+// document.write("<br>");
