@@ -175,23 +175,16 @@
 // document.write("Last Character of Input:" + lastCharacter);
 // document.write("<br>");
 
-// Question 18 Not Complete ..................................................
-// var text = "The quick brown fox jumps over the lazy dog";
-// var text1 = text.toLowerCase();
-// var count = 0;
-// for (let m = 0; m < text1.length; m++) {
-//   var text2 = text1.charAt(m) === " ";
-//   if (text1[m] == "the") {
-//     count += 1;
-//   } else {
-//     count -= 1;
-//   }
-// }
-// if (count > 0) {
-//   document.write("There are " + count + " occurrence(s) of the word 'the'");
-// } else {
-//   document.write("No word found");
-// }
+// Question 18
+var temp = "The quick brown fox jumps over the lazy dog";
+temp = temp.toLowerCase()
+var count = (temp.match(/the/g) || []).length;
+// The ‘g’ in the function specifies global which is used to search for an entire string rather than stop by finding the first occurrence.
+if (count > 0) {
+    document.write("There are " + count + " occurrence(s) of the word 'the'");
+} else {
+    document.write("No word found");
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
