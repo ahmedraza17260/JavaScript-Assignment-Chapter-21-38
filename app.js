@@ -176,15 +176,15 @@
 // document.write("<br>");
 
 // Question 18
-var temp = "The quick brown fox jumps over the lazy dog";
-temp = temp.toLowerCase()
-var count = (temp.match(/the/g) || []).length;
-// The ‘g’ in the function specifies global which is used to search for an entire string rather than stop by finding the first occurrence.
-if (count > 0) {
-    document.write("There are " + count + " occurrence(s) of the word 'the'");
-} else {
-    document.write("No word found");
-}
+// var temp = "The quick brown fox jumps over the lazy dog";
+// temp = temp.toLowerCase()
+// var count = (temp.match(/the/g) || []).length;
+// // The ‘g’ in the function specifies global which is used to search for an entire string rather than stop by finding the first occurrence.
+// if (count > 0) {
+//     document.write("There are " + count + " occurrence(s) of the word 'the'");
+// } else {
+//     document.write("No word found");
+// }
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
