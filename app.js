@@ -398,17 +398,63 @@
 // document.write(laterDate);
 // document.write("<br>");
 
-// Question 9 Not Complete ..................................................
+// Question 9
+// var ramzanDate = new Date("June 18 , 2015 00:00:00");
+// var diffinMillisec = Math.abs(new Date() - ramzanDate);
+// var totalDays = Math.floor( diffinMillisec/(1000*3600*24))
+// document.write(totalDays+"  days are passed since 1st ramadan 2015")
+// document.write("<br>")
 
-// Question 10 Not Complete ..................................................
+// Question 10 
+// var referenceDate = new Date("Jan 01 2015 00:00:00");
+// var diffinMillisec = Math.abs(new Date("Dec 05 2015 22:50:16") - referenceDate);
+// document.write(diffinMillisec)
+// var totalSecond = Math.floor((diffinMillisec/1000) / 60 );
+// document.write("<br>"+ totalSecond +" seconds have passed since begiining of 2015 ")
 
-// Question 11 Not Complete ..................................................
+// Question 11 
+// var e = new Date()
+// document.write(e);
+// var d = new Date();
+// d.setHours(d.getHours() - 1);
+// document.write("<br>" +" 1 hour ago, it was "+d)
 
-// Question 12 Not Complete ..................................................
+// Question 12 
+// var c = new Date()
+// var d = new Date();
+// d.setFullYear(d.getFullYear() - 100);
+// document.write("TODAY : " + c + "<br>" + "BEFORE 100 YEARS: " + d + "<br>")
 
-// Question 13 Not Complete ..................................................
+// Question 13 
+// var r = window.prompt("Enter Your Age")
+// var d = new Date();
+// var y=d.getFullYear()-r;
+// document.write("your age is  "+ r+"<br>"+"your birth year is   "+ y)
 
-// Question 14 Not Complete ..................................................
+// Question 14 
+// var d = new Date();
+// var month = new Array();
+// month[0] = "January";
+// month[1] = "February";
+// month[2] = "March";
+// month[3] = "April";
+// month[4] = "May";
+// month[5] = "June";
+// month[6] = "July";
+// month[7] = "August";
+// month[8] = "September";
+// month[9] = "October";
+// month[10] = "November";
+// month[11] = "December";
+// var monthName = month[d.getMonth()];
+// var unit= 410
+// var p=16
+// var netAmount = unit*p;
+// var latecharges=350;
+// var latePayment=netAmount+latecharges;
+// document.write("Customer Name: ABC customer"+"<br>"+"Month: "+ monthName +"<br>"+"No. of Units: "
+// +unit+"<br>"+"No. of charges per unit: "+p+"<br>"+"<br>"+"<br>"+"Net Amount Payable (within Due Date): "+netAmount
+// +"<br>"+"Late Payment Surcharge: "+latecharges+"<br>"+"Gross Amount Payable (after Due Date): "+ latePayment);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
